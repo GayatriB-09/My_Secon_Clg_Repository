@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Lifecycle Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .devops-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .devops-phase {
+            width: 150px;
+            height: 100px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        /* Optional: Add different colors for phases */
+        .devops-phase:nth-child(even) {
+            background-color: #2196F3; /* Blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="devops-container">
+        <div class="devops-phase">Plan</div>
+        <div class="devops-phase">Code</div>
+        <div class="devops-phase">Build</div>
+        <div class="devops-phase">Test</div>
+        <div class="devops-phase">Deploy</div>
+        <div class="devops-phase">Operate</div>
+        <div class="devops-phase">Monitor</div>
+        <div class="devops-phase">Feedback</div>
+    </div>
+</body>
+</html>
